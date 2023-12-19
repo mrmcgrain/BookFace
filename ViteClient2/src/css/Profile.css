@@ -1,0 +1,223 @@
+#topContainer {
+display: flex;
+flex-direction: row;
+/* justify-content: space-between; */
+width: 100%;
+/* justify-content: space-evenly */
+}
+
+#profileImg {
+    /* border: solid black 2px; */
+    width: 200px;
+    height: 150px;
+    background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 55px;
+/* display: flex;
+justify-items: flex-start */
+
+  /* border: solid rebeccapurple 2px */
+
+}
+
+#profileBio {
+    /* border: solid black 2px; */
+    width: 100%;
+    height: 150px;
+    overflow-y: scroll; 
+    -ms-overflow-style: none;
+}
+#profileBio::-webkit-scrollbar {
+    display: none;
+}
+
+
+#profileActions {
+    /* border: solid black 1px; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    align-items: center;
+    /* position: fixed; */
+    /* bottom: 0; */
+    /* top: */
+}
+
+
+
+#profileInfo {
+    /* border: solid black 2px; */
+    width: 100%;
+    text-align: left;
+
+}
+
+#Profilegallery {
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+
+
+}
+
+#profileBody {
+    display: flex;
+    /* height: auto; */
+    width: 100%;
+    height: 520px;
+    /* border: 1px dotted black; */
+    overflow-y: scroll; 
+    /* overflow: hidden; Add the ability to scroll */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+    flex-direction: column
+
+}
+
+#ViewProfileGalleryCommentsNotification {
+    display: flex;
+    /* height: auto; */
+    width: 100%;
+    height: 520px;
+    /* border: 1px dotted black; */
+    overflow-y: scroll; 
+    /* overflow: hidden; Add the ability to scroll */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+    flex-direction: column
+}
+#ViewProfileGalleryCommentsNotification::-webkit-scrollbar {
+    display: none;
+}
+
+.profileBody {
+    display: flex;
+    /* height: auto; */
+    width: 100%;
+    /* height: 520px; */
+    height: 100%;
+    /* border: 1px dotted black; */
+    overflow-y: scroll; 
+    /* overflow: hidden; Add the ability to scroll */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+    flex-direction: column
+
+}
+
+#profileBody::-webkit-scrollbar {
+    display: none;
+}
+.profileBody::-webkit-scrollbar {
+    display: none;
+}
+#profileInfo::-webkit-scrollbar {
+    display: none;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto ;
+  }
+
+.galleryImg {
+    height: 200px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border: solid 1px black;
+     /* margin: 2px; */
+    /* background-image: url() */ 
+    background-image: url("http://localhost:8080/public/defaultImg.png") ;
+}
+
+
+
+th, td {
+    padding: 5px !important;
+    width: 30%;
+    /* display: none; */
+}
+
+#profileAddress  {
+    color: #1e90ff;
+}
+.profileAddress {
+    justify-content: space-evenly;
+
+}
+
+.galleryFullImage {
+    width: 373px;
+    /* height: 500px; */
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+
+}
+#ViewProfileGalleryBackGroundImgNotification{
+    height: 250px !important;
+    /* height: 400px !important; */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex; 
+        flex-direction: row;
+}
+
+#ViewProfileGalleryImg {
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll; 
+    /* overflow: hidden; Add the ability to scroll */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+    flex-direction: column
+
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+}
+#ViewProfileGalleryImg::-webkit-scrollbar {
+    display: none;
+}
+
+#ViewProfileGalleryBackGroundImg{
+    height: 95%;
+}
+/* #ViewProfileGalleryBackGroundImgMotification{
+    height: 400px;
+} */
+
+#viewProfileActions {
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    width: 100%
+}
+
+#viewProfileActionsFollow {
+    display: flex;
+    justify-content: space-evenly;
+    /* flex-direction: column; */
+    width: 100%
+}
+
+#GalleryActions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 25px ;
+}
+
+#Tag {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+

@@ -1,0 +1,79 @@
+
+
+#Header p {
+    background-color: #1e90ff
+}
+
+.HeaderBackGround {
+    background-color: #1e90ff;
+    align-items: center;
+    justify-content: center;
+height: 100%;
+}
+
+#Nav p{
+    background-color: #1e90ff
+
+}
+
+#HeaderContainer {
+    height: 100%;
+    background-color: #1e90ff
+
+}
+
+.HeaderIcons {
+    /* color:  #535bf2; */
+    /* color:  #535bf2; */
+    color:  white;
+    /* border-radius: 25px; */
+    background-color: #1e90ff;
+    /* text-shadow: red; */
+    /* background-color:  */
+    /* border-radius: 25px; */
+    /* border: solid black 2px */
+    /* border: none !important */
+}
+
+#notificationCounter{
+    margin-top: 4px;
+    margin-left: 1px;
+    z-index: 7;
+    position: absolute;
+    background-color: white;
+    color:black;
+    font-weight: 800;
+    border: solid black 2px;
+border-radius: 25px;
+width: 20px;
+height: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 10px;
+
+}
+
+#mailCallCount {
+    margin-top: 3px;
+    margin-left: 5px;
+    /* top: 20px; */
+    z-index: 8;
+    position: absolute;
+    background-color: white;
+    color:black;
+    /* text-shadow: black; */
+    font-weight: 800;
+    font-size: 10px;
+
+border: solid black 2px;
+border-radius: 25px;
+width: 20px;
+height: 20px;
+display: flex;
+justify-content: center;
+align-items: center
+
+
+
+}

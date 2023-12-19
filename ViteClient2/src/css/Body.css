@@ -1,0 +1,32 @@
+#BodyContainer  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+#Body{
+    widtH: 100%;
+    height: 100%;
+}
+
+#Landing {
+    height: 100%;
+}
+
+
+
+#run-loader {
+
+    margin: auto;
+    border: 10px solid #333;
+    border-top-color: rgb(51, 51, 51);
+    border-top-style: solid;
+    border-top-width: 10px;
+    border-top: 10px solid #04AA6D;
+    border-radius: 50%;
+    max-width: 150px;
+    max-height: 150px;
+    animation: spin 2s linear infinite;
+    position: relative;
+}

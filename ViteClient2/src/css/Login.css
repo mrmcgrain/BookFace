@@ -1,0 +1,29 @@
+
+* {
+    background-color: #ffffff;
+/* border: solid black 1px */
+}
+
+input {
+    border-right-color: #646cff; ;
+    border-left-color: #646cff;   
+    /* border-top-left-radius: 50px;     */
+    border-radius: 25px;
+    text-align: center;
+}
+
+#LoginView {
+    display: flex;
+    align-items: flex;
+    justify-content: flex;
+    /* border: 2px dotted green; */
+}
+
+button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50% !important; 
+    color: white;
+    
+    
+}

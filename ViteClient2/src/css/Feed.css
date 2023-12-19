@@ -1,0 +1,150 @@
+p {
+    color: black;
+}
+
+/* .messageView { */
+
+#Feed {
+    height: 100%;
+
+   }
+
+   #ViewFeedContainer {
+    height: 450px;
+    /* height: 100%; */
+    /* border: 1px dotted black; */
+    overflow-y: scroll; 
+    /* overflow: hidden; Add the ability to scroll */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+   }
+
+   #ViewFeedContainer::-webkit-scrollbar {
+    display: none;
+}
+
+#ViewFeeds {
+    margin: 4%;
+}
+
+#ViewFeed {
+    /* margin: 20%; */
+    /* height: 220px; */
+    /* height: 100%; */
+    /* border: 1px dotted black; */
+    overflow-y: scroll; 
+    /* overflow: hidden; Add the ability to scroll */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none; 
+}
+
+#ViewFeed::-webkit-scrollbar {
+    display: none;
+}
+#Feed::-webkit-scrollbar {
+    display: none;
+}
+
+#FeedActions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    width: 100%;
+    /* border-bottom: solid black 1px; */
+    flex-direction: column;
+    margin-bottom: 10px;
+    border-bottom: solid royalblue 1px
+}
+
+#ActionOptions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: black;
+    width: 100%;
+    /* border-bottom: solid black 1px; */
+    flex-direction: row;
+
+
+}
+
+#AddFeedAction{
+    height: 400px;
+    width: auto;
+}
+
+
+
+#FeedAddNewActions {
+    display: flex;
+   align-items: flex-end;
+   justify-content: space-evenly;
+   border: solid 1px black;
+   color: black
+}
+
+#expandOptions {
+    color: black;
+    display: flex;
+    justify-content: space-evenly;
+    /* border: solid black 1px */
+
+}
+
+.feedImg {
+    height: auto;
+    width: 100%;
+    /* margin: 5px; */
+}
+
+.feedContent {
+    text-align: left;
+ 
+}
+
+/* #comments {
+    border: black !important;
+} */
+
+#CommentActions {
+/* background-color:black; */
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+color: white;
+/* background-color: #646cff; */
+margin-bottom: " 8px" ;
+/* border: solid 1px #646cff; */
+height: 20px;
+
+}
+
+/* Icons for like / comment on Feed level */
+.CommentActions {
+    display: flex;
+    justify-content: space-evenly;
+    /* background-color: black; */
+    color: #1e90ff;
+    align-items: center;
+/* background-color: #9d9eb3; */
+/* background-color: #1e90ff; */
+
+}
+
+#feed-comment {
+    /* border-left: solid 1px blue; */
+    border-left: dotted #1e90ff 1px;
+    border-top: dotted #1e90ff 1px;
+
+}
+
+#comment-comment {
+    /* margin-top: 30px; */
+    /* margin-bottom: 30px; */
+    border-top: dotted #1e90ff 1px;
+}
+
+#commentContent{
+    height: auto;
+}

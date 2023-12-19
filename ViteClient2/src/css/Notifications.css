@@ -1,0 +1,15 @@
+#Notifications {
+display: flex;
+/* justify-content: space-evenly; */
+flex-direction: column
+}
+
+#NotificationActions{
+    display: flex;
+    justify-content: space-evenly
+}
+
+.notificationInfo {
+    display: flex;
+    justify-content: space-between
+}
